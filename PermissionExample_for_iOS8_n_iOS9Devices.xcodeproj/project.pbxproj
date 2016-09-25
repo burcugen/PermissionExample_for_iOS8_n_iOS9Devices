@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86822A7B1D97C18A0080D46E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86822A7A1D97C18A0080D46E /* AppDelegate.swift */; };
+		86822A7D1D97C18A0080D46E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86822A7C1D97C18A0080D46E /* ViewController.swift */; };
+		86822A801D97C18A0080D46E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86822A7E1D97C18A0080D46E /* Main.storyboard */; };
+		86822A821D97C18A0080D46E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86822A811D97C18A0080D46E /* Assets.xcassets */; };
+		86822A851D97C18A0080D46E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86822A831D97C18A0080D46E /* LaunchScreen.storyboard */; };
+		86822A901D97D2850080D46E /* ViewControllerCameraPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86822A8E1D97D2850080D46E /* ViewControllerCameraPermission.swift */; };
+		86822A911D97D2850080D46E /* ViewControllerCameraPermission.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86822A8F1D97D2850080D46E /* ViewControllerCameraPermission.xib */; };
+		86822A941D97D2AC0080D46E /* ViewControllerMicrophonePermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86822A921D97D2AC0080D46E /* ViewControllerMicrophonePermission.swift */; };
+		86822A951D97D2AC0080D46E /* ViewControllerMicrophonePermission.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86822A931D97D2AC0080D46E /* ViewControllerMicrophonePermission.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		86822A771D97C18A0080D46E /* PermissionExample_for_iOS8_n_iOS9Devices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PermissionExample_for_iOS8_n_iOS9Devices.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86822A7A1D97C18A0080D46E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86822A7C1D97C18A0080D46E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86822A7F1D97C18A0080D46E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86822A811D97C18A0080D46E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86822A841D97C18A0080D46E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86822A861D97C18A0080D46E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86822A8E1D97D2850080D46E /* ViewControllerCameraPermission.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerCameraPermission.swift; sourceTree = "<group>"; };
+		86822A8F1D97D2850080D46E /* ViewControllerCameraPermission.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerCameraPermission.xib; sourceTree = "<group>"; };
+		86822A921D97D2AC0080D46E /* ViewControllerMicrophonePermission.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerMicrophonePermission.swift; sourceTree = "<group>"; };
+		86822A931D97D2AC0080D46E /* ViewControllerMicrophonePermission.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerMicrophonePermission.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86822A741D97C18A0080D46E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86822A6E1D97C18A0080D46E = {
+			isa = PBXGroup;
+			children = (
+				86822A791D97C18A0080D46E /* PermissionExample_for_iOS8_n_iOS9Devices */,
+				86822A781D97C18A0080D46E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86822A781D97C18A0080D46E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86822A771D97C18A0080D46E /* PermissionExample_for_iOS8_n_iOS9Devices.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86822A791D97C18A0080D46E /* PermissionExample_for_iOS8_n_iOS9Devices */ = {
+			isa = PBXGroup;
+			children = (
+				86822A7A1D97C18A0080D46E /* AppDelegate.swift */,
+				86822A811D97C18A0080D46E /* Assets.xcassets */,
+				86822A861D97C18A0080D46E /* Info.plist */,
+				86822A831D97C18A0080D46E /* LaunchScreen.storyboard */,
+				86822A7E1D97C18A0080D46E /* Main.storyboard */,
+				86822A7C1D97C18A0080D46E /* ViewController.swift */,
+				86822A8E1D97D2850080D46E /* ViewControllerCameraPermission.swift */,
+				86822A8F1D97D2850080D46E /* ViewControllerCameraPermission.xib */,
+				86822A921D97D2AC0080D46E /* ViewControllerMicrophonePermission.swift */,
+				86822A931D97D2AC0080D46E /* ViewControllerMicrophonePermission.xib */,
+			);
+			path = PermissionExample_for_iOS8_n_iOS9Devices;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86822A761D97C18A0080D46E /* PermissionExample_for_iOS8_n_iOS9Devices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86822A891D97C18A0080D46E /* Build configuration list for PBXNativeTarget "PermissionExample_for_iOS8_n_iOS9Devices" */;
+			buildPhases = (
+				86822A731D97C18A0080D46E /* Sources */,
+				86822A741D97C18A0080D46E /* Frameworks */,
+				86822A751D97C18A0080D46E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PermissionExample_for_iOS8_n_iOS9Devices;
+			productName = PermissionExample_for_iOS8_n_iOS9Devices;
+			productReference = 86822A771D97C18A0080D46E /* PermissionExample_for_iOS8_n_iOS9Devices.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86822A6F1D97C18A0080D46E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Burcu Geneci";
+				TargetAttributes = {
+					86822A761D97C18A0080D46E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 86822A721D97C18A0080D46E /* Build configuration list for PBXProject "PermissionExample_for_iOS8_n_iOS9Devices" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86822A6E1D97C18A0080D46E;
+			productRefGroup = 86822A781D97C18A0080D46E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86822A761D97C18A0080D46E /* PermissionExample_for_iOS8_n_iOS9Devices */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86822A751D97C18A0080D46E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86822A911D97D2850080D46E /* ViewControllerCameraPermission.xib in Resources */,
+				86822A851D97C18A0080D46E /* LaunchScreen.storyboard in Resources */,
+				86822A821D97C18A0080D46E /* Assets.xcassets in Resources */,
+				86822A801D97C18A0080D46E /* Main.storyboard in Resources */,
+				86822A951D97D2AC0080D46E /* ViewControllerMicrophonePermission.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86822A731D97C18A0080D46E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86822A7D1D97C18A0080D46E /* ViewController.swift in Sources */,
+				86822A901D97D2850080D46E /* ViewControllerCameraPermission.swift in Sources */,
+				86822A7B1D97C18A0080D46E /* AppDelegate.swift in Sources */,
+				86822A941D97D2AC0080D46E /* ViewControllerMicrophonePermission.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86822A7E1D97C18A0080D46E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86822A7F1D97C18A0080D46E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86822A831D97C18A0080D46E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86822A841D97C18A0080D46E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86822A871D97C18A0080D46E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86822A881D97C18A0080D46E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86822A8A1D97C18A0080D46E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PermissionExample_for_iOS8_n_iOS9Devices/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bignew.PermissionExample-for-iOS8-n-iOS9Devices";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86822A8B1D97C18A0080D46E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PermissionExample_for_iOS8_n_iOS9Devices/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bignew.PermissionExample-for-iOS8-n-iOS9Devices";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86822A721D97C18A0080D46E /* Build configuration list for PBXProject "PermissionExample_for_iOS8_n_iOS9Devices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86822A871D97C18A0080D46E /* Debug */,
+				86822A881D97C18A0080D46E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86822A891D97C18A0080D46E /* Build configuration list for PBXNativeTarget "PermissionExample_for_iOS8_n_iOS9Devices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86822A8A1D97C18A0080D46E /* Debug */,
+				86822A8B1D97C18A0080D46E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86822A6F1D97C18A0080D46E /* Project object */;
+}
